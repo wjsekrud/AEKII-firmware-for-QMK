@@ -1,12 +1,10 @@
-MCU = atmega32
+MCU = atmega32a
 F_CPU = 16000000
 
 BOOTLOADER = bootloadHID
 BOOTLOADER_SIZE = 4096
 
 OPT_DEFS += -DBOOTLOADER_SIZE=$(BOOTLOADER_SIZE)
-
-VPATH += keyboards/aekii
 
 # Build Options
 #   comment out to disable the options.
